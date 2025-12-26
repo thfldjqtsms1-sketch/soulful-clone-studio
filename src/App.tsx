@@ -20,7 +20,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/soulful-clone-studio/">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
